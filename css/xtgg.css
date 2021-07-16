@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*公告样式及内容*/
+[xtgg="top"] {
+    background: #2696FF;
+    margin: 0 auto;
+    margin-top: -100px;
+    height: 50px;
+    width: 956px;
+}
+/*列表提示*/
+[xtgg="tip"] {
+    color: #FFFFFF;
+    margin-left: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+/*表格样式*/
+table {
+    margin: 0 auto;
+    border: 1px solid #AFAFAF;
+}
+/*列表排序方式*/
+[xtgg="list"]{
+	margin: -10px;
+}
+.biaoge ul{
+	margin-top: -440px;
+	margin-left: 30px;
+}
+.biaoge ul li{
+	line-height: 40px;
+	list-style-type: circle;
+}
+.biaoge a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.biaoge a:hover{
+	text-decoration: underline;
+}
