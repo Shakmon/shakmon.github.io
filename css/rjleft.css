@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*模块样式及位置*/
+.rjleft {
+    background-color:#ECFFA9;
+    width: 378px;
+    height: 452px;
+    margin: 50px;
+    margin-top: -80px;
+}
+/*水平线样式*/
+.rjleft hr {
+    margin-left: -10px;
+    height: 0.9px;
+    width: 102%;
+    background-color:#00FF5C;
+    border: none;
+}
+.rjleft ul {
+    margin-top: -12px;
+    margin-left: -30px;
+    text-decoration: none;
+}
+.rjleft ul li {
+    list-style-type: none;
+    line-height: 34px;
+    font-family: "黑体";
+    font-size: 22px;
+    text-indent: 0.4em;
+}
+/*去除链接下划线*/
+.rjleft a {
+    text-decoration: none;
+}
+/*软件项目经过时的样式*/
+.rjleft ul li a:hover {
+    text-decoration: underline;
+}
+/*栏目标题设置*/
+.rltitle {
+    color: #1200FB;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 20px;
+}
