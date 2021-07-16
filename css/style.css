@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+}
+/*网页logo*/
+.logo {
+    float: left;
+    width: 300px;
+    height: 90px;
+    background: url("../image/侠客盟-2.png");
+    background-repeat: no-repeat;
+    background-size: 300px 90px;
+    margin: -100px 140px;
+}
+/*导航栏背景*/
+.dbback {
+    background-color: rgba(132,132,132,1.00);
+    width: 100%;
+    height: 55px;
+    margin: 130px auto;
+}
+/*导航栏*/
+.dbback ul {
+    width: 700px;
+    list-style: none;
+    text-align: center;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.dbback ul li {
+    display: inline-block;
+    width: 120px;
+    line-height: 55px;
+    color: rgba(255,255,255,1.00);
+    margin-left: -3px;
+}
+/*导航栏经过样式*/
+.dbback ul li:hover {
+    background-color: rgba(255,0,4,1.00);
+	transition-duration: 0.5s;
+	transition-timing-function:linear;
+}
+/*导航栏首页选中样式*/
+.xuanz {
+    background-color: rgba(255,0,4,1.00);
+}
+/*底部版权信息*/
+.bqbottom {
+    margin-top: 50px;
+    text-align: center;
+    color: #6F6D6D;
+}
+/*公告标题设置*/
+.title {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #FF0004;
+}
+.biaoge hr{
+	margin: 0 auto;
+	width: 96%;
+	border-color: #FF0004;
+	background: #FF0004;
+	height: 2px;
+}
+/*文章内容设置*/
+.contect{
+	margin: 20px;
+}
